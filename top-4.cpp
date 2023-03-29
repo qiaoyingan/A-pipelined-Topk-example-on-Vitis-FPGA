@@ -28,6 +28,7 @@ int main () {
             X_2i+1   ->    [ B ]
         */
 
+        // <1-merger/2>
         int k = 1;
         if (r1 > k) {
             if (A1.empty()) {
@@ -57,6 +58,7 @@ int main () {
 
         r1 += 1;
 
+        // <2-merger/2>
         if (output1 >= 0) {
             k = 2;
             if (r2 > k) {
