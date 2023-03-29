@@ -115,7 +115,7 @@ int main () {
                             C3.pop_front();
                             B3.pop_back();
                         }
-                        if (r3 % 4 == 0) {
+                        if (r3 % k == 0) {
                             C3.clear();
                         }
                     }
@@ -130,7 +130,7 @@ int main () {
                         C3.pop_front();
                         A3.pop_back();
                     }
-                    if (r3 % 4 == 0) {
+                    if (r3 % k == 0) {
                         C3.clear();
                     } 
                 }
@@ -142,7 +142,7 @@ int main () {
         }
 
         if (output3 >= 0) {
-            cout << "output:" << output3 << endl;
+            cout << "output: " << output3 << endl;
         } else {
             time_rec ++;
             cout << "Latency..." << time_rec << " ...Cycles" << endl;
