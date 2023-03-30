@@ -10,7 +10,7 @@
   * merger series: $\sum_{m=1\sim M} 2^{m-1}+1=2^M-1+M$ cycles;
   * topK-merger: $1$ cycles;
 
-  So the latency of A pipelined topK-sorter is $K+logK$ cycles.
+  So the latency of A pipelined topK-sorter is $K+\log_2 K$ cycles.
 
 * ~~**todo** : implement top1024-sorter for my graduate program.~~
 
