@@ -100,7 +100,6 @@ int main () {
         k = 4;
         if (output2 >= 0) {
             if (r3 > 0) {
-                cout << "r3:" << r3 << endl;
                 if ((r3 - 1) % (2 * k) < k) {
                     if (r3 - 1 < k) {
                         output3 = C3.front();

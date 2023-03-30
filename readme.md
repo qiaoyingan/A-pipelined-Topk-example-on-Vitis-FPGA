@@ -1,10 +1,18 @@
 ## Introduction
 
 * A pipelined top4-sorter example which may be used in streaming transmission.
- 
-* Based on this simple example, the reader can implement any topK sorter by himself :).
 
-* **todo** : implement top1024-sorter for my graduate program.
+* Based on this simple example, A pipelined topK-sorter is implemented.
+
+* Latency for $K=2^{M}$:
+
+  * a single $2^m$-merger: $2^{m-1}+1$ cycles;
+  * merger series: $\sum^{M}_{m=1}2^{m-1}+1=2^M-1+M$ cycles;
+  * topK-merger: $1$ cycles;
+
+  So the latency of A pipelined topK-sorter is $K+logK$ cycles.
+
+* ~~**todo** : implement top1024-sorter for my graduate program.~~
 
 ## Reference
 
