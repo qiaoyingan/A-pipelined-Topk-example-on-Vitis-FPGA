@@ -1,6 +1,6 @@
 ## Introduction
 
-* A top4-sorter example.
+* A pipelined top4-sorter example which may be used in streaming transmission.
  
 * Based on this simple example, the reader can implement any topK sorter by himself :).
 
