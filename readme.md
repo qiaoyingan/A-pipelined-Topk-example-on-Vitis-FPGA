@@ -7,7 +7,7 @@
 * Latency for $K=2^{M}$:
 
   * a single $2^m$-merger: $2^{m-1}+1$ cycles;
-  * merger series: $\sum_{m=1\sim M} 2^{m-1}+1=2^M-1+M$ cycles;
+  * merger series: $(\sum_{m=1}^M) 2^{m-1}+1=2^M-1+M$ cycles;
   * topK-merger: $1$ cycles;
 
   So the latency of A pipelined topK-sorter is $K+\log_2 K$ cycles.
