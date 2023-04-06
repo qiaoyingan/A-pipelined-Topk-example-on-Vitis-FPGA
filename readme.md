@@ -12,7 +12,7 @@
 
   So the latency of A pipelined topK-sorter is $K+\log_2 K$ cycles.
 
-* ~~**todo** : implement top1024-sorter for my graduate program.~~
+* In vitis hls, C++ STL is somehow limited due to the usage of pointer, so a topk-sorter based on array-implemented-deque is implemented.
 
 ## Reference
 
