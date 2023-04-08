@@ -25,3 +25,5 @@
 ## Reference
 
 [Naoyuki Matsumoto, Koji Nakano, and Yasuaki Ito. Optimal parallel hardware k-sorter and top k-sorter, with fpga implementations. In *2015 14th International Symposium on Parallel and Distributed Computing*, 2015.](https://ieeexplore.ieee.org/document/7165140)
+
+Ok fine 我的精神状态已经不好了 什么时候精神状态好转了删掉这句话 凑个commit 就是说我今天真的做了很多事情但是他妈的因为在上板不敢乱动所以不push了。好像也没做什么事情的样子
