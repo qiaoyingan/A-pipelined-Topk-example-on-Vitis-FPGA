@@ -22,6 +22,10 @@
 * The total length including bubbles : $N+2^{m+1}+m$ cycles
 * So no input happends on $N+2^{m}+m-1$ cycle
 
+## Update
+
+4.20: Change LinearBuffer to RingBuffer so that all operations cost O(1).
+
 ## Reference
 
 [Naoyuki Matsumoto, Koji Nakano, and Yasuaki Ito. Optimal parallel hardware k-sorter and top k-sorter, with fpga implementations. In *2015 14th International Symposium on Parallel and Distributed Computing*, 2015.](https://ieeexplore.ieee.org/document/7165140)
