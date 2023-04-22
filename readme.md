@@ -1,4 +1,6 @@
-## Introduction
+## Introduction of TopK-sorter & K-merger/2
+
+#### TopK-sorter
 
 * A pipelined top4-sorter example which may be used in streaming transmission.
 
@@ -13,7 +15,7 @@
   
 * In vitis hls, C++ STL is somehow limited due to the usage of pointer, so a topk-sorter based on array-implemented-deque is implemented.
 
-## k-merger/2
+#### K-merger/2
 
 * Identifier : $m = \log_2 k$
 * Cycles started from cycle 0
@@ -22,11 +24,9 @@
 * The total length including bubbles : $N+2^{m+1}+m$ cycles
 * So no input happends on $N+2^{m}+m-1$ cycle
 
-## Update
+## Introduction of TopK Heap
 
-4.20: Change LinearBuffer to RingBuffer so that all operations cost O(1).
-
-4.21: Use heap?
+*TODO*
 
 ## Reference
 
