@@ -26,7 +26,7 @@
 
 ## Introduction of TopK Heap
 
-*TODO*
+A TopK Heap is implemented to evaluate the performance of the pipelined TopK. It is not hard to find that pipelined TopK shows better performance both in EXEC_TIME and MEM_RW_COST. 
 
 ## Reference
 
