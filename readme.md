@@ -26,7 +26,10 @@
 
 ## Introduction of TopK Heap
 
-A TopK Heap is implemented to evaluate the performance of the pipelined TopK. It is not hard to find that pipelined TopK shows better performance both in EXEC_TIME and MEM_RW_COST. 
+A TopK Heap is implemented to evaluate the performance of the pipelined TopK. It is not hard to find that pipelined TopK shows better performance both in speed and mem_rw.
+
+## Files
+The latest file is `topk_vitis_ii.cpp` which uses ring buffer to avoid unnecessary mem_rw.
 
 ## Reference
 
